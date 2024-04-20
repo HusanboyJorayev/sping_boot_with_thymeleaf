@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME PAGE</title>
+</head>
+<body>
+<a href="/book/create">Create book</a>
+<div>
+    <h1 style="color: darkorange">
+        THIS IS A HOME PAGE
+    </h1>
+</div>
+<table style="border-radius: 10px">
+    <thead>
+    <tr style="border: 12px">
+        <th>ID</th>
+        <th>NAME</th>
+        <th>AUTHOR</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="book:${books}">
+        <td th:text="${book.getId()}"></td>
+        <td th:text="${book.getName()}"></td>
+        <td th:text="${book.getAuthor()}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

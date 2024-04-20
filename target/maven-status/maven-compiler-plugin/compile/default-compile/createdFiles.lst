@@ -1,0 +1,7 @@
+com\example\sping_boot_with_thymeleaf\home\HomeController.class
+com\example\sping_boot_with_thymeleaf\home\BookRepository.class
+com\example\sping_boot_with_thymeleaf\home\Book.class
+com\example\sping_boot_with_thymeleaf\home\Book$BookBuilder.class
+com\example\sping_boot_with_thymeleaf\SpingBootWithThymeleafApplication.class
+com\example\sping_boot_with_thymeleaf\home\BookDto.class
+com\example\sping_boot_with_thymeleaf\home\BookDto$BookDtoBuilder.class
