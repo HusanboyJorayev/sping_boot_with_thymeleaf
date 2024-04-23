@@ -1,0 +1,5 @@
+FROM openjdk:17
+VOLUME /tmp
+ADD target/demo-app.jar demoapp.jar
+EXPOSE 9090
+ENTRYPOINT ["java","-jar","/demoapp.jar"]
